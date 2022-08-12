@@ -1,0 +1,111 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --header-height: 3rem;
+  --hue-color: 347;
+  /* Colors */
+  --first-color: hsl(var(--hue-color), 85%, 46%);
+  --first-color-second: hsl(var(--hue-color), 85%, 46%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 56%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 86%);
+  --title-color: hsl(var(--hue-color), 50%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 46%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 73%, 96%);
+  --body-color: hsl(var(--hue-color), 63%, 99%);
+  --container-color: #f2f2f2;
+
+  /* ======Font and Typography */
+  /* Import font family of poppins from google */
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.939rem;
+  --small-font-size: 0.815rem;
+  --smaller-font-size: 0.77rem;
+
+  /* ====Font Weight=== */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* ===Margin */
+  --m-0-25: 0.25rem;
+  --m-0-5: 0.5rem;
+  --m-0-75: 0.75rem;
+  --m-1: 1rem;
+  --m-1-5: 1.5rem;
+  --m-2: 2rem;
+  --m-2-5: 2.5rem;
+  --m-3: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+div {
+  font-family: "Poppins", sans-serif;
+}
+.img {
+  height: 29rem;
+  transition: all 0.4s;
+}
+.img:hover {
+  transform: scale(1.02, 1.02);
+}
+.title {
+  padding-top: 2.5rem;
+}
+.row {
+  margin-left: 50px;
+}
+.pic {
+  padding-bottom: 2rem;
+}
+.productBtn-1 {
+  margin-top: 1rem;
+  font-size: 15px;
+  line-height: 4px;
+  text-align: center;
+  height: 2.9rem;
+  width: 7.43rem;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  padding: 8px;
+  transition: 0.3s all;
+  background-color: white;
+  color: rgb(210, 59, 109);
+}
+.productBtn-1:hover {
+  color: white;
+  background-color: rgb(210, 59, 109);
+  transform: scale(1.2, 1.2);
+  border: 1px solid transparent;
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  img {
+    width: 90%;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .pic {
+    margin-left: 110px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .pic {
+    margin-left: 55px;
+  }
+}

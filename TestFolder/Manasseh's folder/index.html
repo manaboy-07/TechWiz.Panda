@@ -13,6 +13,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -22,7 +30,9 @@
       <!-- Logo -->
       <div class="nav-logo">
         <img src="../../images/logo.jpg" alt="logo" class="logo-img" />
-        <h1 class="logo-text">PandaFashion</h1>
+        <h2 class="logo-text">
+          Panda <span class="span-contact">Fashion</span>
+        </h2>
       </div>
       <div class="nav-list">
         <div class="active-icon" id="active-icon">
@@ -34,43 +44,148 @@
 
         <ul class="nav-items" id="nav-items">
           <li class="nav-item">
-            <lord-icon
-              src="https://cdn.lordicon.com/igpbsrza.json"
-              trigger="morph"
+            <a href="#home" class="nav-link">
+              <lord-icon
+                src="https://cdn.lordicon.com/igpbsrza.json"
+                trigger="morph"
+              >
+              </lord-icon>
+              Home</a
             >
-            </lord-icon>
-
-            <a href="#home" class="nav-link">Home</a>
           </li>
 
           <li class="nav-item">
-            <lord-icon
-              src="https://cdn.lordicon.com/aixyixpa.json"
-              trigger="hover"
+            <a href="#about" class="nav-link">
+              <lord-icon
+                src="https://cdn.lordicon.com/aixyixpa.json"
+                trigger="hover"
+              >
+              </lord-icon
+              >About</a
             >
-            </lord-icon>
-            <a href="#about" class="nav-link">About</a>
           </li>
 
           <li class="nav-item">
-            <lord-icon
-              src="https://cdn.lordicon.com/uvextprq.json"
-              trigger="hover"
+            <a href="#contact" class="nav-link">
+              <lord-icon
+                src="https://cdn.lordicon.com/uvextprq.json"
+                trigger="hover"
+              >
+              </lord-icon
+              >Contact</a
             >
-            </lord-icon>
-            <a href="#contact" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
-            <lord-icon
-              src="https://cdn.lordicon.com/webtefou.json"
-              trigger="hover"
+            <a href="#products" class="nav-link">
+              <lord-icon
+                src="https://cdn.lordicon.com/webtefou.json"
+                trigger="hover"
+              >
+              </lord-icon
+              >Products</a
             >
-            </lord-icon>
-            <a href="#styles" class="nav-link">Styles</a>
           </li>
         </ul>
       </div>
     </div>
+    <!-- Procuts -->
+    <!-- beginning of products section -->
+    <section>
+      <div class="title" id="products">
+        <h1 class="text-center">
+          Our <span class="span-contact">Products</span>
+        </h1>
+      </div>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 pic">
+              <div class="item" data-aos="fade-right" data-aos-duration="1500">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images9.jpg"
+                    alt=""
+                /></a>
+                <h3>Casual Tees</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+            <div class="col-lg-4 pic">
+              <div class="item" data-aos="fade-up" data-aos-duration="1500">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images7.jpg"
+                    alt=""
+                /></a>
+                <h3>Plain Suits</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+            <div
+              class="col-lg-4 pic"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div class="item">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images8.jpg"
+                    alt=""
+                /></a>
+                <h3>Checkered Suits</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pic">
+              <div class="item" data-aos="fade-right" data-aos-duration="1500">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images5.jpg"
+                    width="309.33px"
+                /></a>
+                <h3>Leather Jackets</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+            <div class="col-lg-4 pic">
+              <div class="item" data-aos="fade-up" data-aos-duration="1500">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images6.jpg"
+                    width="309.33px"
+                /></a>
+                <h3>Plain Suits</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+            <div
+              class="col-lg-4 pic"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div class="item">
+                <a href=""
+                  ><img
+                    class="img-responsive img"
+                    src="../../images/images3.jpg"
+                    alt=""
+                /></a>
+                <h3>Checkered Suits</h3>
+              </div>
+              <button class="productBtn-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
     <section id="contact" class="contact">
       <h1 class="heading"><span class="span-contact">Contact</span> us</h1>
@@ -94,7 +209,7 @@
           <p>PandaTech@gmail.com</p>
         </div>
 
-        <div class="icons">
+        <div class="icons icon-center">
           <lord-icon
             src="https://cdn.lordicon.com/cnyeuzxc.json"
             trigger="hover"
@@ -105,10 +220,78 @@
           <p>+123-456-7890</p>
           <p>+234-445-4566</p>
         </div>
+        <div class="icons icon-center">
+          <lord-icon
+            src="https://cdn.lordicon.com/ofqzcdla.json"
+            trigger="hover"
+            class="contact-icon"
+          >
+          </lord-icon>
+          >
+          <h3>Follow Us</h3>
+          <p>Twitter</p>
+          <p>Instagram</p>
+          <p>Facebook</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container connect">
+      <div class="connect-form">
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" class="contact__input" />
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Email</label>
+              <input type="email" class="contact__input" />
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="7"
+              class="contact__input"
+              spellcheck="true"
+            ></textarea>
+          </div>
+
+          <div>
+            <a href="" class="button button--flex">
+              Send Message
+              <i class="fa-solid fa-comments"></i>
+            </a>
+          </div>
+        </form>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              class="gmap_iframe"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=771&amp;height=527&amp;hl=en&amp;q=APtech Alagbole&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe
+            ><a href="https://www.kokagames.com/fnf-friday-night-funkin-mods/"
+              >Friday Night Funkin Mods</a
+            >
+          </div>
+         
+        </div>
       </div>
     </section>
 
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

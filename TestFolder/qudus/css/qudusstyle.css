@@ -96,31 +96,12 @@ box-shadow: 2px 2px 2px rgb(0, 0, 0,.6);
     animation:headerContentanimate 1s linear 2s backwards;
 
   }
-  header .swiper .content ul.slick-dots{
- position: absolute;
-    bottom:20px;
-}
-
-header .swiper .content .slick-dots li{
-    height: auto;
-    width: auto;
-}
-header .swiper .content .slick-dots li button{
-    height: 2px;
-    width: 30px;
-    background:var(--first-color);
-    padding: 0;
-}
-
-header .swiper .content .slick-dots li.slick-active button{
-    background: #e50914;
-}
-  /* @keyframes headerContentanimate{
+  @keyframes headerContentanimate{
     0%{
       opacity: 0;
       transform: translateX(-10rem);
     }
-  } */
+  }
 
 
 
