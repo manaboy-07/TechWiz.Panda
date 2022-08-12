@@ -59,21 +59,13 @@
     border: transparent;
 box-shadow: 2px 2px 2px rgb(0, 0, 0,.6);
   }
-  header .swiper .content1{
-    height: 90vh;
- background: url(../4\ copy.jpg);
-    background-size: cover;
-  }
-  header .swiper .content2{
+ 
+  header .swiper .content{
     height: 90vh;
  background: url(../ffffc.png);
     background-size: cover;
   }
-  header .swiper .content3{
-    height: 90vh;
- background: url(../background.jpg);
-    background-size: cover;
-  }
+
   header .swiper .content{
     display: flex;
     flex-direction: column;
