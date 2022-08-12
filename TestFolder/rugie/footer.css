@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+h5,p,a,div{
+    font-family: "Poppins", sans-serif;
+}
+footer{
+   margin-top: 37%;
+}
+.footer-bg{
+    background-color: #f8fafa;
+    width: 100%;
+}
+.footer-cont{
+    font-size: .8rem;
+    text-align: justify;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #777;
+}
+footer ul li a:hover{
+    background-color:  rgb(210, 59, 109);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.socials{
+    font-size: 26px;
+}
+#address a i{
+    color: black;
+}
+#mid li{
+    list-style:none;
+}
+#right li{
+    list-style: none;
+}
+i{
+    color: black;
+}
+i:hover{
+    color:  rgb(210, 59, 109); 
+}
+.footer-after{
+    text-align: center;
+    padding-top: 2rem;
+}
+@media only screen and (min-width: 991px) and (max-width: 1800px) {
+    #mid{
+        text-align: center;
+    }
+}
