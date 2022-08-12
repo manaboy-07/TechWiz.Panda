@@ -1,0 +1,10 @@
+Hello Guys lets get ready to work shall we i will put instructions here
+ok now so this is our text folder where we would work on our sparate parts.
+for example i work on the footer and another works on the nav bar you get .
+
+please create a folder inside the test folder for your own work so that nobody will confuse another like i have done.
+IMPORTANT - please use proper name conventions
+i.e if you are working on the footer use the footer tag, lets say u have an image there and u want to give it a class
+the class can be footer__image hope you get
+and secondly nobody abeg should go to the src folder that is where all our work will be combined
+check out the assets folder for designs . it shdnt be the same and you can change to your liking
