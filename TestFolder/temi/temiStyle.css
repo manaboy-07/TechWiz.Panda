@@ -78,19 +78,19 @@ img:hover{
     text-align: center;
     height: 2.9rem;
     width: 7.43rem;
-    border: 1px solid transparent;
+    border: 1px solid black;
     font-family: 'Poppins',sans-serif;
     border-radius: 5px;
     padding: 8px;
     transition: 0.3s all;
-    background-color: rgb(210, 59, 109);
-    color: white;
+    background-color: white;
+    color: rgb(210, 59, 109);
 }
 .productBtn-1:hover{
-    color: rgb(210, 59, 109);
-    background-color: white;
+    color: white;
+    background-color: rgb(210, 59, 109);
     transform:scale(1.2,1.2);
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 @media (min-width:991px) and (max-width:1199px){
     img{
