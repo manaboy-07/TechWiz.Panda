@@ -13,6 +13,7 @@
    --body-color: hsl(var(--hue-color), 63%, 99%);
    --container-color: #f2f2f2;
   
+
     /* ======Font and Typography */
     /* Import font family of poppins from google */
     --body-font: "Poppins", sans-serif;
@@ -45,31 +46,81 @@
   }
   html{
     font-size: 62.5%;
+    transition: all 5s ease;
+    
   }
-  header{
+  header .swiper{
+   min-width: 100%;
+   position: relative;
+  }
+  header .swiper .content button{
+    background-color: var(--first-color);
+    color:var(--container-color);
+    border: transparent;
+box-shadow: 2px 2px 2px rgb(0, 0, 0,.6);
+  }
+  header .swiper .content1{
     height: 90vh;
-    background: url(4\ copy.jpg);
+ background: url(../4\ copy.jpg);
     background-size: cover;
   }
-  header .content{
+  header .swiper .content2{
+    height: 90vh;
+ background: url(../ffffc.png);
+    background-size: cover;
+  }
+  header .swiper .content3{
+    height: 90vh;
+ background: url(../background.jpg);
+    background-size: cover;
+  }
+  header .swiper .content{
     display: flex;
     flex-direction: column;
-    padding: 20rem 10rem;
+    padding:  10rem;
+    justify-content: center;
   } 
-  header .content h1{
+  header .swiper .content h1{
     font-size: 6rem;
     max-width:50%;
-    line-height: 7rem;
     animation:headerContentanimate 1s linear 1s backwards;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0,.4) !important;
+  }
+  header .swiper .content button{
+    width: 20rem;
+    font-size: 2rem;
+    font-family: serif;
+    height: 5rem;
+    border-radius: 1rem;
+    margin: 3rem 0;
+    animation:headerContentanimate 1s linear 2s backwards;
 
   }
+  header .swiper .content ul.slick-dots{
+ position: absolute;
+    bottom:20px;
+}
 
-  @keyframes headerContentanimate{
+header .swiper .content .slick-dots li{
+    height: auto;
+    width: auto;
+}
+header .swiper .content .slick-dots li button{
+    height: 2px;
+    width: 30px;
+    background:var(--first-color);
+    padding: 0;
+}
+
+header .swiper .content .slick-dots li.slick-active button{
+    background: #e50914;
+}
+  /* @keyframes headerContentanimate{
     0%{
       opacity: 0;
       transform: translateX(-10rem);
     }
-  }
+  } */
 
 
 
@@ -93,14 +144,23 @@
     html{
         font-size: 55%;
     }
+    header .content h1{
+      max-width:70%;
+    }
   }
   @media(max-width:776px){
     html{
         font-size: 49%;
+    }
+    header .content h1{
+      max-width:80%;  
     }
   }
   @media(max-width:426px){
     html{
         font-size:42.5%;
     }
+    header .content h1{
+      max-width:100%;  
+    } 
   }
