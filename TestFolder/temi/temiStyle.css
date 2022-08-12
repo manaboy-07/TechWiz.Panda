@@ -44,6 +44,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+div {
+  font-family: "Poppins", sans-serif;
+}
+img{
+    height: 29rem;
+    transition: all .4s;
+}
+img:hover{
+    transform: scale(1.02,1.02);
+}
 .title{
     padding-top: 2.5rem;
+}
+.row{
+    margin-left: 50px;
+}
+.pic{
+    padding-bottom: 2rem;
+}
+.productBtn-1{
+    margin-top: 1rem;
+    font-size: 15px;
+    line-height: 4px;
+    text-align: center;
+    height: 2.9rem;
+    width: 7.43rem;
+    border: 1px solid transparent;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    padding: 8px;
+    transition: 0.3s all;
+    background-color: rgb(210, 59, 109);
+    color: white;
+}
+.productBtn-1:hover{
+    color: rgb(210, 59, 109);
+    background-color: white;
+    transform:scale(1.2,1.2);
+    border: 1px solid black;
+}
+@media (min-width:991px) and (max-width:1199px){
+    img{
+        width: 90%;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    .pic{
+        margin-left: 110px;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .pic{
+        margin-left: 55px;
+    }
 }
