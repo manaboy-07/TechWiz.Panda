@@ -62,7 +62,6 @@ div {
   margin-top: 4px;
   width: 100%;
 
-  position: fixed;
   border-bottom: 1px solid gray;
 }
 .active-icon,
@@ -133,4 +132,8 @@ div {
 }
 .nav-list ul li a {
   text-decoration: none;
+}
+section {
+  display: block;
+  margin: 50px;
 }
