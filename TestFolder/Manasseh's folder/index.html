@@ -6,6 +6,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -65,16 +72,12 @@
       </div>
     </div>
     <!-- Contact -->
-    <section id="contact">
-      <h1 class="heading"><span>contact</span> us</h1>
+    <section id="contact" class="contact">
+      <h1 class="heading"><span class="span-contact">Contact</span> us</h1>
 
       <div class="container">
         <div class="icons">
-          <lord-icon
-            src="https://cdn.lordicon.com/cnyeuzxc.json"
-            trigger="hover"
-          >
-          </lord-icon>
+          <i class="fa-solid fa-location-dot fa-2x map-icon contact-icon"></i>
           <h3>Address</h3>
           <p>Panda 123 Liberty Lane</p>
         </div>
@@ -83,6 +86,7 @@
           <lord-icon
             src="https://cdn.lordicon.com/iicmtpsq.json"
             trigger="hover"
+            class="contact-icon"
           >
           </lord-icon>
           <h3>Email</h3>
@@ -91,7 +95,12 @@
         </div>
 
         <div class="icons">
-          <i class="fas fa-phone"></i>
+          <lord-icon
+            src="https://cdn.lordicon.com/cnyeuzxc.json"
+            trigger="hover"
+            class="contact-icon"
+          >
+          </lord-icon>
           <h3>Phone</h3>
           <p>+123-456-7890</p>
           <p>+234-445-4566</p>

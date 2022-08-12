@@ -70,7 +70,7 @@ div {
 }
 
 .nav-items.active {
-  right: 100px;
+  right: 0px;
   transition: all 650ms ease-in-out;
   -webkit-transition: all 650ms ease-in-out;
   -moz-transition: all 650ms ease-in-out;
@@ -84,8 +84,13 @@ div {
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    right: -120px;
-    top: 120px;
+    right: -820px;
+    top: 80px;
+    height: 100%;
+    width: 90%;
+    z-index: 999;
+    background-color: #f3f3f3;
+    border: 1px solid black;
     margin-bottom: 30px;
     transition: all 650ms ease-in-out;
     -webkit-transition: all 650ms ease-in-out;
@@ -93,7 +98,9 @@ div {
     -ms-transition: all 650ms ease-in-out;
     -o-transition: all 650ms ease-in-out;
   }
-
+  .nav-list {
+    background-color: var(--first-color-lighter);
+  }
   .active-icon {
     display: block;
   }
@@ -106,6 +113,9 @@ div {
   }
   .nav-item {
     margin-top: 30px;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .logo-img {
@@ -132,8 +142,49 @@ div {
 }
 .nav-list ul li a {
   text-decoration: none;
+  color: var(--first-color);
+  font-weight: bold;
 }
 section {
   display: block;
   margin: 50px;
+}
+svg {
+  width: 3%;
+  height: 3%;
+}
+.contact .heading {
+  text-align: center;
+  font-size: var(--big-font-size);
+}
+.span-contact {
+  color: var(--first-color);
+}
+
+.contact .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.map-icon {
+  color: rgb(2, 8, 39);
+}
+.icons {
+  border: 1px solid gray;
+  width: 92%;
+
+  background-color: var(--first-color-lighter);
+  gap: 20px;
+}
+.icons h3,
+.icons p {
+  text-align: center;
+}
+.contact-icon {
+  text-align: center;
+  margin-left: 47%;
+  margin-top: 30px;
 }
