@@ -95,7 +95,7 @@
     
 
      <!-- Home -->
-     <section id="home" class="home">
+     <section id="home" class="home panda-header">
        <div class="home-header text-center">Introduction</div>
         <div class="intro">
            <h2> Hi, <span class="span-contact">there 👋</span> </h2>
@@ -183,7 +183,7 @@
             </button>
           </div>
     </section>
-    <section id="about" class="about">
+    <section id="about" class="about panda-header">
       <div>
         <h1 class="text-center section-line"><span class="span-contact">About</span> Us</h1>
         <div class="location">
@@ -270,7 +270,7 @@
    
     <!-- Products -->
     <!-- beginning of products section -->
-    <section>
+    <section class="panda-header">
       <div class="title" id="products">
         <h1 class="text-center  section-line">
           Our <span class="span-contact">Products</span>
@@ -283,11 +283,12 @@
               <div class="item" data-aos="fade-right" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/images9.jpg"
                     alt=""
                 /></a>
-                <h3>Casual Tees</h3>
+                <h3 id="bold">Casual Tees</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -295,11 +296,12 @@
               <div class="item" data-aos="fade-up" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/images7.jpg"
                     alt=""
                 /></a>
-                <h3>Plain Suits</h3>
+                <h3 id="bold">Plain Suits</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -311,11 +313,12 @@
               <div class="item">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/images8.jpg"
                     alt=""
                 /></a>
-                <h3>Checkered Suits</h3>
+                <h3 id="bold">Checkered Suits</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -325,11 +328,12 @@
               <div class="item" data-aos="fade-right" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/p-7.png"
                     width="309.33px"
                 /></a>
-                <h3>Leather Jackets</h3>
+                <h3 id="bold">Leather Jackets</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -337,11 +341,12 @@
               <div class="item" data-aos="fade-up" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/images6.jpg"
                     width="309.33px"
                 /></a>
-                <h3>Plain Suits</h3>
+                <h3 id="bold">Plain Suits</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -353,11 +358,12 @@
               <div class="item">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/images3.jpg"
                     alt=""
                 /></a>
-                <h3>Checkered Suits</h3>
+                <h3 id="bold">Checkered Suits</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -367,11 +373,12 @@
               <div class="item" data-aos="fade-right" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/merch1.jpg"
                     width="309.33px"
                 /></a>
-                <h3>Panda Merch</h3>
+                <h3 id="bold">Panda Merch</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -379,11 +386,12 @@
               <div class="item" data-aos="fade-up" data-aos-duration="1500">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/merch2.jpg"
                     width="309.33px"
                 /></a>
-                <h3>Kids wear</h3>
+                <h3 id="bold">Kids wear</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -395,11 +403,12 @@
               <div class="item">
                 <a href=""
                   ><img
+                  id="img-product"
                     class="img-responsive img"
                     src="./images/merch3.jpg"
                     alt=""
                 /></a>
-                <h3>Panda Hoodies</h3>
+                <h3 id="bold">Panda Hoodies</h3>
               </div>
               <button class="productBtn-1">Buy Now</button>
             </div>
@@ -414,52 +423,63 @@
         >
     </lord-icon></button>
     <!-- Contact -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact panda-header">
       <h1 class="heading  section-line"><span class="span-contact">Contact</span> us</h1>
 
       <div class="container">
-        <div class="icons">
-          <i class="fa-solid fa-location-dot fa-2x map-icon contact-icon"></i>
-          <h3>Address</h3>
-          <p>Panda 123 Liberty Lane</p>
+        <div id="contact-info">
+          <div class="icons">
+            <i class="fa-solid fa-location-dot fa-2x map-icon contact-icon"></i>
+            <h3>Address</h3>
+            <p>Panda 123 Liberty Lane</p>
+            <p>Atalanta,Gerogia</p>
+          </div>
         </div>
-
-        <div class="icons">
-          <lord-icon
-            src="https://cdn.lordicon.com/iicmtpsq.json"
-            trigger="hover"
-            class="contact-icon"
-          >
-          </lord-icon>
-          <h3>Email</h3>
-          <p>Panada@gmail.com</p>
-          <p>PandaTech@gmail.com</p>
+        
+        <div id="contact-info">
+          <div class="icons ">
+            <lord-icon
+              src="https://cdn.lordicon.com/iicmtpsq.json"
+              trigger="hover"
+              class="contact-icon"
+            >
+            </lord-icon>
+            <h3>Email</h3>
+            <p>Panada@gmail.com</p>
+            <p>PandaTech@gmail.com</p>
+          </div>
         </div>
-
-        <div class="icons icon-center">
-          <lord-icon
-            src="https://cdn.lordicon.com/cnyeuzxc.json"
-            trigger="hover"
-            class="contact-icon"
-          >
-          </lord-icon>
-          <h3>Phone</h3>
-          <p>+123-456-7890</p>
-          <p>+234-445-4566</p>
+        
+        <div id="contact-info">
+          <div class="icons ">
+            <lord-icon
+              src="https://cdn.lordicon.com/cnyeuzxc.json"
+              trigger="hover"
+              class="contact-icon"
+            >
+            </lord-icon>
+            <h3>Phone</h3>
+            <p>+123-456-7890</p>
+            <p>+234-445-4566</p>
+            <p>+234-445-4566</p>
+          </div>
         </div>
-        <div class="icons icon-center">
-          <lord-icon
-            src="https://cdn.lordicon.com/ofqzcdla.json"
-            trigger="hover"
-            class="contact-icon"
-          >
-          </lord-icon>
-          >
-          <h3>Follow Us</h3>
-          <p>Twitter</p>
-          <p>Instagram</p>
-          <p>Facebook</p>
+        <div id="contact-info">
+          <div class="icons">
+            <lord-icon
+              src="https://cdn.lordicon.com/ofqzcdla.json"
+              trigger="hover"
+              class="contact-icon"
+            >
+            </lord-icon>
+            >
+            <h3>Follow Us</h3>
+            <p>Twitter</p>
+            <p>Instagram</p>
+            <p>Facebook</p>
+          </div>
         </div>
+       
       </div>
     </section>
 
