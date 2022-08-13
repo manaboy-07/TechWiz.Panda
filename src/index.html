@@ -32,7 +32,7 @@
     <div class="navbar">
       <!-- Logo -->
       <div class="nav-logo">
-        <img src="../../images/logo.jpg" alt="logo" class="logo-img" />
+        <img src="../images/logo.jpg" alt="logo" class="logo-img" />
         <h2 class="logo-text">
           Panda <span class="span-contact">Fashion</span>
         </h2>
@@ -95,11 +95,12 @@
 
      <!-- Home -->
      <section id="home" class="home">
+       <div class="home-header text-center">Introduction</div>
         <div class="intro">
-           <h1> Hi, there 👋</h1>
-            <p>Welcome to Panda Fashion</p>
-            <p>Your new Fashion clubhouse</p>
-            <p>Explore and know more about us 😁😁</p>
+           <h2> Hi, <span class="span-contact">there 👋</span> </h2>
+            <p class="intro-text">Welcome to Panda Fashion</p>
+            <p class="intro-text">Your new Fashion clubhouse</p>
+            <p class="intro-text">Explore and know more about us 😁😁</p>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -282,7 +283,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images9.jpg"
+                    src="../images/images9.jpg"
                     alt=""
                 /></a>
                 <h3>Casual Tees</h3>
@@ -294,7 +295,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images7.jpg"
+                    src="../images/images7.jpg"
                     alt=""
                 /></a>
                 <h3>Plain Suits</h3>
@@ -310,7 +311,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images8.jpg"
+                    src="../images/images8.jpg"
                     alt=""
                 /></a>
                 <h3>Checkered Suits</h3>
@@ -324,7 +325,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images5.jpg"
+                    src="../images/p-7.png"
                     width="309.33px"
                 /></a>
                 <h3>Leather Jackets</h3>
@@ -336,7 +337,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images6.jpg"
+                    src="../images/images6.jpg"
                     width="309.33px"
                 /></a>
                 <h3>Plain Suits</h3>
@@ -352,7 +353,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/images3.jpg"
+                    src="../images/images3.jpg"
                     alt=""
                 /></a>
                 <h3>Checkered Suits</h3>
@@ -366,7 +367,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/merch1.jpg"
+                    src="../images/merch1.jpg"
                     width="309.33px"
                 /></a>
                 <h3>Panda Merch</h3>
@@ -378,7 +379,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/merch2.jpg"
+                    src="../images/merch2.jpg"
                     width="309.33px"
                 /></a>
                 <h3>Kids wear</h3>
@@ -394,7 +395,7 @@
                 <a href=""
                   ><img
                     class="img-responsive img"
-                    src="../../images/merch3.jpg"
+                    src="../images/merch3.jpg"
                     alt=""
                 /></a>
                 <h3>Panda Hoodies</h3>
@@ -405,7 +406,12 @@
         </div>
       </div>
     </section>
-
+    <button onclick="topFunction()" id="btn-top" title="Go to top">
+        <lord-icon
+        src="https://cdn.lordicon.com/eflfmgmj.json"
+        trigger="hover"
+        >
+    </lord-icon></button>
     <!-- Contact -->
     <section id="contact" class="contact">
       <h1 class="heading  section-line"><span class="span-contact">Contact</span> us</h1>
@@ -470,12 +476,15 @@
             </div>
             <div class="col-lg-3" id="mid">
               <h2>Quick Links</h2>
-              <ul class="quick-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#products">Products</a></li>
-              </ul>
+              <p>
+                <ul class="quick-links" id="quick-links">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                  <li><a href="#products">Products</a></li>
+                </ul>
+              </p>
+              
             </div>
             <div class="col-lg-3" id="right">
               <h2>Reach Us</h2>
